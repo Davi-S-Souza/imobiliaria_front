@@ -1,6 +1,16 @@
 function pesquisar() {
     const secaoTotal = document.getElementById('secao-total');
     const pesquisa = document.getElementById('pesquisar').value;
+    const element = document.getElementById('exampleElement');
+
+    if (element) { // Check if the element exists
+        const elementIdAsString = element.id;
+        console.log(elementIdAsString); // This is the ID as a string
+    } else {
+        console.error('Element not found');
+    }
+
+
 
     if(pesquisa==""){
         alert("Digite alguma coisa")

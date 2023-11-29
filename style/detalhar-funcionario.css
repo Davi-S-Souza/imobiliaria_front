@@ -89,4 +89,22 @@ body {
   }
   
 
-  
+  .creci{
+    position: absolute; top: 125px; align-self: center;
+  }
+
+  .nome{
+    position: absolute; top: 195px; align-self: center;
+  }
+
+  .email{
+    position: absolute; top: 265px; align-self: center;
+  }
+
+  .endereco{
+    position: absolute; top: 335px; align-self: center;
+  }
+
+  .telefone{
+    position: absolute; top: 405px; align-self: center;
+}
