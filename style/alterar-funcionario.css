@@ -56,13 +56,15 @@ body {
     list-style: none;
   }
 
-#footer{
+  #footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E07E36;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
 
 #caixa {
     width: 711px;

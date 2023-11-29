@@ -273,6 +273,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #E07E36;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
